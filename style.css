@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+h1{
+  text-align: center;
+  font-size: 17px;
+  font-family: Poppins;
+}
+h3{
+  text-align: center;
+  font-size: 17px;
+  font-family: Poppins;
+}
+h6{
+  text-align: center;
+  font-size: 17px;
+  font-family: Poppins;
+}
+.row{
+  text-align: center;
+}
+label{
+    font-family: Poppins;
+}
+
+span{
+  font-family: Poppins;
+}
+input{
+
+  border-style: 5px;
+  margin: auto;
+  padding:2px;
+}
+
+button{
+  padding: 5px;
+  color:#ffff;
+  background-color: green;
+  border-color: green;
+}
+ div.list-group{
+  text-align: center;
+  font-family: Poppins;
+ }
+ p{
+    text-align: center;
+  font-size: 17px;
+  font-family: Poppins;
+ }

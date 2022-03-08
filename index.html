@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>CALCULADORA IMC</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+    
+        <div class="card">
+            <h1>CALCULADORA IMC</h1>
+          </div>
+          <div class="row">
+            <h6>Descubre su indice de masa corporal</h6>
+            <form id="formCalcularImc">
+              <div class="my-3 position-relative">
+                <label for="">Sexo</label>
+                <img
+                  src="./img/Female-Symbol-Silhouette.svg"
+                  width="50px"
+                  height="50px"
+                />
+                <img
+                  src="./img/Male-Symbol-Silhouette.svg"
+                  width="50px"
+                  height="50px"
+                />
+              </div>
+              <div>
+                <span>Edad</span>
+                <input
+                  type="number"
+                  class="form-control"
+                  aria-label="edad"
+                  id="edad"
+                />
+              </div>
+              <br>
+              <div>
+                <span>Peso</span>
+                <input
+                  type="number"
+                  class="form-control"
+                  aria-label="peso"
+                  id="peso"
+                />
+                <span>KG</span>
+                <br>
+                <br>
+              </div>
+              <div class="input-group mb-3">
+                <span>Altura</span>
+                <input
+                  type="number"
+                  class="form-control"
+                  aria-label="altura"
+                  id="altura"
+                />
+                <span>M</span>
+              </div>
+              <br>
+              <div class="my-4">
+                <button class="boton" type="submit">
+                  CALCULAR IMC
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="resultado" id="resultado">
+              <h3>RESULTADO</h3>
+              <p
+                style="color: green; font-size: 30px"
+                id="valorNumeroFinal"
+              ></p>
+       
+            <div class="list-group">
+              <a id="1" class="list-group-item list-group-item-action"
+                ><i class="fas fa-weight" style="color: blue"></i>&nbsp;Bajo
+                Peso</a
+              >
+              <a id="2" class="list-group-item list-group-item-action">
+                <i class="fas fa-weight" style="color: green"></i
+                >&nbsp;Saludable</a
+              >
+              <a id="3" class="list-group-item list-group-item-action"
+                ><i class="fas fa-weight" style="color: orange"></i>&nbsp;Exceso
+                de Peso</a
+              >
+              <a id="4" class="list-group-item list-group-item-action"
+                ><i class="fas fa-weight" style="color: red"></i>&nbsp;Obeso</a>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
